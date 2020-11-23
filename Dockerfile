@@ -1,4 +1,4 @@
-FROM runmymind/docker-android-sdk:lazydl
+FROM runmymind/docker-android-sdk@sha256:4d40732d901a54bb7f6b7afd65c5ee260262f11d3c868c4c4c86884b995d4c5c
 
 RUN \
   apt update && \
